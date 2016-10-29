@@ -1,0 +1,89 @@
+*{
+	box-sizing: border-box;
+	font-family: 'Indie Flower', cursive;
+}
+
+body{
+	background-color: gray;
+	height: 100%;
+	width: 100%;
+}
+
+.phone{
+	margin: auto;
+	width: 320px;
+	height: 645px;
+	border-radius: 30px;
+	position: relative;
+	left: 50%-160px;
+	top: 50%-160px;
+	background-color: white;
+	border: #FFDCAB 3px outset;
+	text-align: center;
+}
+
+.screen{
+	width: 285px;
+	height: 500px;
+	position: absolute;
+	background-color: black;
+	top: 70px;
+	left: 13.5px;
+	border-radius: 3px;
+}
+
+.home{
+	width: 45px;
+	height: 45px;
+	position: absolute;
+	border: 2px #FFDCAB inset;
+	border-radius: 50%;
+	background-color: white;
+	left: 135px;
+	bottom: 15px;
+}
+
+.camera{
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	border-radius: 50%;
+	border: 2px black solid;
+	background-color: #282828;
+	left: 110px;
+	top:32px;
+}
+
+.speaker{
+	width: 40px;
+	height: 3px;
+	border: 1px black inset;
+	border-radius: 1px;
+	background-color: black;
+	position: absolute;
+	right: 138px;
+	top: 35px;
+}
+
+.light{
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background-color: black;
+	position: absolute;
+	left: 152px;
+	top: 15px;
+}
+
+.back{
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	position: fixed;
+	right: 50px;
+	bottom: 30px;
+	background-color: white;
+	padding-top: 12px;
+}
+
+
