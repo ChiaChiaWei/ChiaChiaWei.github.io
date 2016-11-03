@@ -1,0 +1,68 @@
+* {
+    font-family: "Gloria Hallelujah", verdana, arial;
+    /* 設定字體 */
+    text-align: center;
+    /* 物件置中 */
+    background-color: #F8FF98;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: 'Indie Flower', cursive;
+}
+
+h1, h2, p {
+    color: black;
+}
+
+p {
+    line-height: 1.5em;
+    font-style: italic;
+    border: 3px solid coral;
+    border-radius: 50px;
+    background-image: url(IMG_9670.JPG);
+    background-size: 100%;
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+.green {
+    background-color: #B0FF89;
+}
+
+.lightblue {
+    background-color: #93FFF7;
+}
+
+.blue {
+    background-color: #A9B8FF;
+}
+
+.red {
+    background-color: #FFA89A;
+}
+
+#greenh2 {
+    color: green;
+}
+
+#lightblueh2 {
+    color: blue;
+}
+
+#blueh2 {
+    color: purple;
+}
+
+#redh2 {
+    color: red;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:hover {
+	font-size: 150%;
+}
