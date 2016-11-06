@@ -3,79 +3,61 @@
     font-family: arial;
 }
 
-.nav{
-	height: 50px;
-	background-color: black;
-	position: fixed;
-	top: 0px;
-	left: 0px;
-	display: block;
-	color: gray;
-	padding-top: 0px;
+.nav {
+    height: 50px;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: block;
+    color: gray;
+    padding-top: 0px;
 }
 
-#home{
+#home {
     float: right;
 }
 
-#hoho{
+#hoho {
     height: 30px;
 }
 
-span{
-	font-size: 1.5em;
-	font-weight: bold;
-	margin-left: 120px;
-	margin-bottom: 20px;
-	margin-right: 0px;
-	float: left;
+ul {
+    margin-top: -11px;
+    list-style-type: none;
+    display: block;
+    float: left;
+    padding-left: 0px;
 }
 
-ul{
-	margin-top: -11px;
-	list-style-type: none;
-	display: block;
-	float: left;
-	padding-left: 0px;
-}
-
-ul li{
-	float: left;
-	display: block;
-	margin-left: 0px;
-	padding-right: 30px;
-	height: 50px;
-	padding-top: 13px;
-	text-align: center;
-}
-
-a{
-	text-decoration: none;
+a {
+    text-decoration: none;
 }
 
 a:link {
-	color: gray;
+    color: gray;
 }
 
-ul li:hover{
-	background-color: white;
+ul li:hover {
+    background-color: white;
 }
 
-a:visited{
-	color: gray;
+a:visited {
+    color: gray;
 }
+
 
 /*.l1 .l2 .l3{
-	margin: 20px;
-	float: left;
-	position: relative;
-	display: block;
+    margin: 20px;
+    float: left;
+    position: relative;
+    display: block;
 }
 
 .nav .l1 .a{
-	position:relative;
-	display: block;
-	padding: 10px 15px; 
+    position:relative;
+    display: block;
+    padding: 10px 15px; 
 }*/
 
 div[class^="col-"] {
@@ -88,6 +70,7 @@ div.sub {
     height: 50px;
     padding-top: 0px;
 }
+
 
 /*div {
     border: 1px red solid;
@@ -105,22 +88,22 @@ div.sub {
     display: block;
 }
 
-.buy{
-	width: 80px;
-	float: left;
+.buy {
+    width: 80px;
+    float: left;
 }
 
-.wh{
-	width: 80px;
-	background-color: white;
-	color: black;
-	border: #D0D0D0 1px solid;
-	float: left;
-	margin-left: 10px;
+.wh {
+    width: 80px;
+    background-color: white;
+    color: black;
+    border: #D0D0D0 1px solid;
+    float: left;
+    margin-left: 10px;
 }
 
-.latest{
-	margin-top: -10;
+.latest {
+    margin-top: -10;
 }
 
 div.a {
@@ -142,16 +125,16 @@ div.b {
     text-align: center;
 }
 
-.b>p{
-	font-size: 0.8em;
-	padding-top: 0px;
+.b>p {
+    font-size: 0.8em;
+    padding-top: 0px;
 }
 
-.content{
-	border-radius: 5px;
-	border: 1px solid #D0D0D0;
-	height: 400px;
-	margin-bottom: 50px;
+.content {
+    border-radius: 5px;
+    border: 1px solid #D0D0D0;
+    height: 400px;
+    margin-bottom: 50px;
 }
 
 .container {
@@ -216,6 +199,23 @@ div.b {
         font-weight: 900;
         margin-left: 50px;
     }
+    span {
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-left: 120px;
+        margin-bottom: 20px;
+        margin-right: 0px;
+        float: left;
+    }
+    ul li {
+        float: left;
+        display: block;
+        margin-left: 0px;
+        padding-right: 30px;
+        height: 50px;
+        padding-top: 15px;
+        text-align: center;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 980px) {
@@ -275,6 +275,23 @@ div.b {
         font-weight: 900;
         margin-left: 50px;
     }
+    span {
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-left: 100px;
+        margin-bottom: 20px;
+        margin-right: 0px;
+        float: left;
+    }
+    ul li {
+        float: left;
+        display: block;
+        margin-left: 0px;
+        padding-right: 30px;
+        height: 50px;
+        padding-top: 15px;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -333,5 +350,22 @@ div.b {
         font-size: 2.4em;
         font-weight: 900;
         margin-left: 50px;
+    }
+    span {
+        font-size: 1em;
+        font-weight: bold;
+        margin-left: 40px;
+        margin-bottom: 20px;
+        margin-right: 0px;
+        float: left;
+    }
+    ul li {
+        float: left;
+        display: block;
+        margin-left: 0px;
+        padding-right: 10px;
+        height: 50px;
+        padding-top: 15px;
+        text-align: center;
     }
 }
